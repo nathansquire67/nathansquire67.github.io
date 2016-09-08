@@ -1,3 +1,49 @@
-h1, h2{
-  font-family: monospace;
+body{
+  background-image: url(images/Woodlock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body.noScroll{
+  height: 100%;
+  overflow: hidden;
+}
+
+.home{
+  height: 400px;
+  width: 1000px;
+  position: absolute;
+  top: 230px;
+  left: 130px;
+}
+
+.home img{
+  height: 200px;
+}
+
+.home a{
+  font-size: 30px;
+  color:#606060;
+  text-decoration: none;
+}
+
+.home a:hover{
+  color:#FF3B3B;
+}
+
+.home ul{
+  margin: 40px 110px;
+}
+
+.home li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.home p{
+  color: #606060;
+  margin: 10px 150px;
 }
