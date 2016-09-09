@@ -29,7 +29,12 @@ function reWrite(option){
 		case 'contact':
 			var title = document.getElementById('contact');
 			title.classList.add('highlighted');
-			sampleText.innerHTML = "We'd love to hear from you. Email us at dustyvinyl@gmail.com";
+			sampleText.innerHTML = "We'd love to hear from you. Email us at dustyvinylgraphicsanddesign@gmail.com";
+			break;
+		case 'followUs':
+			var title = document.getElementById('followUs');
+			title.classList.add('highlighted');
+			sampleText.innerHTML = "<a href='https://www.facebook.com/dustyvinylgraphicsanddesign'>facebook</a> • <a href='https://www.behance.net/nathansqui5f0b'>behance</a> • <a href='http://dustyvinylgraphicsanddesign.tumblr.com'>tumblr</a> • <a href='https://dribbble.com/nathansquire67'>dribble</a> • <a href='https://www.linkedin.com/in/nathansquire67'>linkedIn</a>";
 			break;
 		default:
 			sampleText.innerHTML = " ";

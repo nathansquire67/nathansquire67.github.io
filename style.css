@@ -23,8 +23,11 @@ body.noScroll{
   height: 200px;
 }
 
-.home a{
+.home li a{
   font-size: 30px;
+}
+
+.home a{
   color:#606060;
   text-decoration: none;
 }
