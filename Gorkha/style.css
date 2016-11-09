@@ -7,7 +7,8 @@
 .sideBar{
   float: left;
   width: 250px;
-  margin: -100px 10px;
+  margin: -50px 10px;
+  position: fixed;
 }
 
 .sideBar img{
@@ -15,6 +16,10 @@
   /* margin: 10px 50px; */
   /* border: 1px solid black; */
   padding: 20px;
+}
+
+.sideBar article{
+  margin: 50px 10px;
 }
 
 .blog{
@@ -43,4 +48,19 @@ article p{
   margin: 5px 0px;
   text-align: justify;
   font-size: 1.2em;
+}
+
+a{
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #aaa;
+}
+
+h1{
+  text-align: center;
+  font-size: 2.2em;
+  margin: 50px 0px 0px 0px;
 }
