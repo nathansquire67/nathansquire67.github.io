@@ -12,14 +12,18 @@
 }
 
 .sideBar img{
-  width: 82%;
+  width: 100%;
   /* margin: 10px 50px; */
   /* border: 1px solid black; */
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .sideBar article{
   margin: 50px 10px;
+}
+
+.sideBar article h3{
+  right: 50px;
 }
 
 .blog{
@@ -28,10 +32,10 @@
 }
 
 article{
-  margin: 100px 10px;
+  margin: 50px 10px 80px 10px;
   padding: 0px;
   border: 0px solid black;
-  border-width: 1px 0px;
+  border-width: 1px 0px 0px 0px;
 }
 
 article h3{
