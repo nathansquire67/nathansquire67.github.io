@@ -57,3 +57,7 @@ body.noScroll{
   margin: 10px 150px;
   width: 515px;
 }
+
+.home p a{
+  color: #c0c0c0;
+}
