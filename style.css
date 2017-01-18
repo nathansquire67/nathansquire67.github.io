@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+  margin: 0px;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.third{
+  display: inline-block;
+  height: 100%;
+  min-height: 1500px;
+  width: 33%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.third p{
+  margin: 20px 5px 5px 5px;
+  font-size: 2em;
+  display: block;
+}
+
+.third img{
+  margin-top: 250px;
+  width: 45%;
+}
+
+#dustyvinyl{
+  background-color: black;
+  float: left;
+}
+
+#dustyvinyl p{
+  font-family: 'Open Sans', sans-serif;
+  color: #FF3B3B;
+}
+
+#mytimeinnepal{
+  background-color: white;
+}
+
+#mytimeinnepal p{
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  font-weight: 900;
+  font-size: 2.3em;
+}
+
+#twoforjoy{
+  background-color: #BF751B;
+  float: right;
+}
+
+#twoforjoy p{
+  font-family: serif; /*update*/
+  color: white; /*update*/
+  font-size: 2.2em; /*update*/
+}
